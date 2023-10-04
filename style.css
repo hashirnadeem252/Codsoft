@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=DM+Serif+Display:ital@1&family=Kanit:wght@300&family=Montserrat:wght@300;400&family=Noto+Sans+JP&family=Roboto:wght@300&family=Satisfy&family=Sedgwick+Ave+Display&family=Teko:wght@300&display=swap');
+
+
+
+body{
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: large;
+}
+.button{
+    color: white;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 30%;
+    cursor: pointer;
+    background: gray;
+    padding: 23px;
+}
+.button:hover{
+  background-color:   rgba(0, 0, 0, 0.284);
+}
+.row #zero{
+    padding: 21px;
+    border-radius: 28px;
+    width: 130px;
+}
+
+.row #divide{
+    background-color: rgba(0, 0, 0, 0.284);
+}
+
+.row #multiply{
+    background-color: rgba(0, 0, 0, 0.284);
+}
+.row #plus{
+    background-color: rgba(0, 0, 0, 0.284);
+}
+.row #minus{
+    background-color: rgba(0, 0, 0, 0.284);
+}
+.row #equal{
+    background-color: rgba(0, 0, 0, 0.284);
+}
+
+.row{
+    margin: 7px 0;
+}
+
+
+.row input{
+    color: white;
+    margin: 0;
+    padding: 30px 33px;
+    border: 2px solid black;
+    background: rgba(128, 128, 128, 0.533);
+    
+}
